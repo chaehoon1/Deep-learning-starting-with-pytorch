@@ -6,3 +6,4 @@ for i in range(50000) :
     if i % 5000 == 0:
         print(loss)
     optimize(learning_rate)
+
