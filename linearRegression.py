@@ -16,3 +16,6 @@ model_b = torch.tensor([2], dtype = torch.float, requires_grad = True)
 prediction = model_w * train_x + model_b
 
 loss = torch.mean((prediction - train_y) ** 2)
+
+def gd(w ,b ,learning_data, epoch) :
+
