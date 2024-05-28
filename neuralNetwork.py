@@ -1,3 +1,5 @@
+import torch
+
 x, y =get_data()
 w, b = get_weights()
 for i in range(50000) :
